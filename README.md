@@ -1,5 +1,5 @@
 
-# Saarthi_Gen-AI: AI-Powered Personalized Learning Platform 🚀
+# Saarthi_Gen-AI 🎓✨ 
 
 *AI-Powered Personalized Learning Platform*
 
@@ -49,26 +49,32 @@ Our platform analyzes user profiles to generate **adaptive learning roadmaps**, 
 - Python ≥3.9
 - MongoDB Atlas Cluster
 
-```
+
 # 1. Clone repository
+```
 git clone https://github.com/SaarthiAI/saarthi-core.git
 cd saarthi-core
-
+```
 # 2. Install dependencies
+```
 npm install
 pip install -r requirements.txt
+```
 
 # 3. Configure environment
+```
 cp .env.example .env
 # Update with your API keys
+```
 
 # 4. Start development servers
+```
 npm run dev & python api/server.py
 ```
 
 ## 🔑 Environment Configuration
 
-```ini
+```
 # .env
 MONGODB_URI="mongodb+srv://user:pass@cluster.mongodb.net/saarthi"
 GROQ_API_KEY="gsk_YourKeyHere"
